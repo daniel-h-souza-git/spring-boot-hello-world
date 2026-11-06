@@ -1,0 +1,122 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1793984241.931839,
+    "seen": 1793984845.9104483,
+    "ast_hash": "81b0a08c23516ce74be101c16c7322d0",
+    "semantic_hash": "81b0a08c23516ce74be101c16c7322d0"
+  },
+  "bruno/bruno.json": {
+    "mtime": 1793947556.0,
+    "seen": 1793984845.9104483,
+    "ast_hash": "59a7e47f559a7dfa8e829e0ca923344f",
+    "semantic_hash": "59a7e47f559a7dfa8e829e0ca923344f"
+  },
+  "pom.xml": {
+    "mtime": 1793947556.0,
+    "seen": 1793984845.9104483,
+    "ast_hash": "d3e3ec41c7d8220ec990afcf7ef49f47",
+    "semantic_hash": "d3e3ec41c7d8220ec990afcf7ef49f47"
+  },
+  "src/main/java/com/example/helloworld/HelloController.java": {
+    "mtime": 1793981943.7687178,
+    "seen": 1793984845.9104483,
+    "ast_hash": "751680cb6c365cf861050d45c739025b",
+    "semantic_hash": "751680cb6c365cf861050d45c739025b"
+  },
+  "src/main/java/com/example/helloworld/HelloWorldApplication.java": {
+    "mtime": 1793947556.0,
+    "seen": 1793984845.9104483,
+    "ast_hash": "a7722b3f6b00e241d3a28bda790b441e",
+    "semantic_hash": "a7722b3f6b00e241d3a28bda790b441e"
+  },
+  "src/main/java/com/example/helloworld/message/HelloMessage.java": {
+    "mtime": 1793981929.308824,
+    "seen": 1793984845.9104483,
+    "ast_hash": "0db7d4094cc9732267452dd815d0264c",
+    "semantic_hash": "0db7d4094cc9732267452dd815d0264c"
+  },
+  "src/main/java/com/example/helloworld/message/HelloMessageFactory.java": {
+    "mtime": 1793981929.9851134,
+    "seen": 1793984845.9104483,
+    "ast_hash": "6112482d7a9755a1d3d693e6334bb0c8",
+    "semantic_hash": "6112482d7a9755a1d3d693e6334bb0c8"
+  },
+  "src/main/java/com/example/helloworld/message/Language.java": {
+    "mtime": 1793981928.7262626,
+    "seen": 1793984845.9104483,
+    "ast_hash": "bc72a9a403be1c74cb36b2f059801bc3",
+    "semantic_hash": "bc72a9a403be1c74cb36b2f059801bc3"
+  },
+  ".claude/skills/hello-message-factory/SKILL.md": {
+    "mtime": 1793980392.6784606,
+    "seen": 1793984845.9104483,
+    "ast_hash": "20376e212b14d5384dfd9688d6ca7a63",
+    "semantic_hash": "20376e212b14d5384dfd9688d6ca7a63"
+  },
+  "CLAUDE.md": {
+    "mtime": 1793990944.1089382,
+    "seen": 1793990956.6467981,
+    "ast_hash": "e63945708d12f9fb1dde976117ab75af",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1793990943.7354429,
+    "seen": 1793990956.6467981,
+    "ast_hash": "1264e1c35e9c62d134a12c0a3c8cd729",
+    "semantic_hash": ""
+  },
+  "frontend/package.json": {
+    "mtime": 1793990856.4789352,
+    "seen": 1793990956.6467981,
+    "ast_hash": "b29610b4eb02e9b1e01a44b047f85ab3",
+    "semantic_hash": ""
+  },
+  "frontend/src/App.jsx": {
+    "mtime": 1793990858.4297016,
+    "seen": 1793990956.6467981,
+    "ast_hash": "2f701e1134148a33dbe2786f2c16d92d",
+    "semantic_hash": ""
+  },
+  "frontend/src/FlapBoard.jsx": {
+    "mtime": 1793990858.0854716,
+    "seen": 1793990956.6467981,
+    "ast_hash": "30735bb1b4332a372a70e005572d3a45",
+    "semantic_hash": ""
+  },
+  "frontend/src/api.js": {
+    "mtime": 1793990857.923467,
+    "seen": 1793990956.6467981,
+    "ast_hash": "d1fc30db09bcc51f953ce33eef5d61b5",
+    "semantic_hash": ""
+  },
+  "frontend/src/main.jsx": {
+    "mtime": 1793990857.5648663,
+    "seen": 1793990956.6467981,
+    "ast_hash": "507885869312ab3581a53a065a5b8753",
+    "semantic_hash": ""
+  },
+  "frontend/tests/api.test.js": {
+    "mtime": 1793990858.9939346,
+    "seen": 1793990956.6467981,
+    "ast_hash": "a31c020b94d04aecbb318565cd6e4b4f",
+    "semantic_hash": ""
+  },
+  "frontend/vite.config.js": {
+    "mtime": 1793990856.6078894,
+    "seen": 1793990956.6467981,
+    "ast_hash": "d24685d0e88e6e6a9a002632d0fab87b",
+    "semantic_hash": ""
+  },
+  "frontend/index.html": {
+    "mtime": 1793990857.1946173,
+    "seen": 1793990956.6467981,
+    "ast_hash": "2f4640795d8f4f74a7a5bbc5dcb087ca",
+    "semantic_hash": ""
+  },
+  "frontend/package-lock.json": {
+    "mtime": 1793990899.5749211,
+    "seen": 1793990956.6467981,
+    "ast_hash": "91625aa4f1112e5383b06b57667b68d7",
+    "semantic_hash": ""
+  }
+}

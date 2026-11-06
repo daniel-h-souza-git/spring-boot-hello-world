@@ -1,0 +1,68 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1793984241.931839,
+    "seen": 1793984845.9104483,
+    "ast_hash": "81b0a08c23516ce74be101c16c7322d0",
+    "semantic_hash": "81b0a08c23516ce74be101c16c7322d0"
+  },
+  "bruno/bruno.json": {
+    "mtime": 1793947556.0,
+    "seen": 1793984845.9104483,
+    "ast_hash": "59a7e47f559a7dfa8e829e0ca923344f",
+    "semantic_hash": "59a7e47f559a7dfa8e829e0ca923344f"
+  },
+  "pom.xml": {
+    "mtime": 1793947556.0,
+    "seen": 1793984845.9104483,
+    "ast_hash": "d3e3ec41c7d8220ec990afcf7ef49f47",
+    "semantic_hash": "d3e3ec41c7d8220ec990afcf7ef49f47"
+  },
+  "src/main/java/com/example/helloworld/HelloController.java": {
+    "mtime": 1793981943.7687178,
+    "seen": 1793984845.9104483,
+    "ast_hash": "751680cb6c365cf861050d45c739025b",
+    "semantic_hash": "751680cb6c365cf861050d45c739025b"
+  },
+  "src/main/java/com/example/helloworld/HelloWorldApplication.java": {
+    "mtime": 1793947556.0,
+    "seen": 1793984845.9104483,
+    "ast_hash": "a7722b3f6b00e241d3a28bda790b441e",
+    "semantic_hash": "a7722b3f6b00e241d3a28bda790b441e"
+  },
+  "src/main/java/com/example/helloworld/message/HelloMessage.java": {
+    "mtime": 1793981929.308824,
+    "seen": 1793984845.9104483,
+    "ast_hash": "0db7d4094cc9732267452dd815d0264c",
+    "semantic_hash": "0db7d4094cc9732267452dd815d0264c"
+  },
+  "src/main/java/com/example/helloworld/message/HelloMessageFactory.java": {
+    "mtime": 1793981929.9851134,
+    "seen": 1793984845.9104483,
+    "ast_hash": "6112482d7a9755a1d3d693e6334bb0c8",
+    "semantic_hash": "6112482d7a9755a1d3d693e6334bb0c8"
+  },
+  "src/main/java/com/example/helloworld/message/Language.java": {
+    "mtime": 1793981928.7262626,
+    "seen": 1793984845.9104483,
+    "ast_hash": "bc72a9a403be1c74cb36b2f059801bc3",
+    "semantic_hash": "bc72a9a403be1c74cb36b2f059801bc3"
+  },
+  ".claude/skills/hello-message-factory/SKILL.md": {
+    "mtime": 1793980392.6784606,
+    "seen": 1793984845.9104483,
+    "ast_hash": "20376e212b14d5384dfd9688d6ca7a63",
+    "semantic_hash": "20376e212b14d5384dfd9688d6ca7a63"
+  },
+  "CLAUDE.md": {
+    "mtime": 1793984241.926838,
+    "seen": 1793984845.9104483,
+    "ast_hash": "e545e4da591d242a341698593f6014cb",
+    "semantic_hash": "e545e4da591d242a341698593f6014cb"
+  },
+  "README.md": {
+    "mtime": 1793981955.08742,
+    "seen": 1793984845.9104483,
+    "ast_hash": "a1243544e6a75c651b178ac3507066ea",
+    "semantic_hash": "a1243544e6a75c651b178ac3507066ea"
+  }
+}

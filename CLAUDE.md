@@ -28,6 +28,8 @@ Single package `com.example.helloworld`:
 - `HelloWorldApplication` — Spring Boot entry point.
 - `HelloController` — `@RestController` with `GET /hello/{lang}` (uses `message.HelloMessageFactory`; `lang` = en|pt|es, else 400) and `GET /hello2`, each returning `text/plain`.
 
+`frontend/` is a separate React 19 + Vite app (`npm run dev` / `npm test` / `npm run build` from that folder). It calls the API through the Vite proxy in `frontend/vite.config.js` (no CORS config in the backend) and reads responses with `response.text()` because the API returns `text/plain`.
+
 ## Adding or changing an endpoint
 
 Endpoints are mirrored in three places, so update all of them together:
@@ -35,3 +37,14 @@ Endpoints are mirrored in three places, so update all of them together:
 1. `HelloController.java` — the handler.
 2. `bruno/<Name>.bru` — a Bruno request using `{{baseUrl}}` (defined in `bruno/environments/Local.bru`), with `seq` incremented and tests asserting status 200 and the exact body.
 3. `README.md` — the cURL example, the Bruno description and the "Estrutura" tree.
+
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+Rules:
+- When graphify-out/graph.json exists, run `graphify query "<question>"` before your first grep, search or source-file read for a codebase question, and put this rule in every subagent prompt that explores code. Read raw files only for lines the graph or an earlier read already located. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+- A committed graphify-out/graph.json is rewritten whole on every build, so a large diff to it in a pull request is expected. Do not flag it as churn or suggest skipping the graph rebuild or its hooks.
