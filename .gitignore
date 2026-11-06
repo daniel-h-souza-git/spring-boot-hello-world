@@ -1,0 +1,30 @@
+# Maven e compilacao Java
+/target/
+*.class
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+.history/
+
+# Eclipse / Spring Tools
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# Segredos e ambiente local
+.env
+.env.*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini

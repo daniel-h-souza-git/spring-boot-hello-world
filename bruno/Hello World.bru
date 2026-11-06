@@ -1,0 +1,21 @@
+meta {
+  name: Hello World
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/hello
+  body: none
+  auth: none
+}
+
+tests {
+  test('Retorna HTTP 200', function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test('Retorna Hello, World!', function () {
+    expect(res.getBody()).to.equal('Hello, World!');
+  });
+}
