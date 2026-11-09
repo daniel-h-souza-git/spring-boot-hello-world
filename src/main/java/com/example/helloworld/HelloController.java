@@ -18,7 +18,10 @@ public class HelloController {
 
     @GetMapping(value = "/hello/{lang}", produces = "text/plain;charset=UTF-8")
     public String hello(@PathVariable String lang) {
+
         log.debug("Processando /hello/{} (lang recebido='{}')", lang, lang);
+
+        
         try {
             String text = HelloMessageFactory.create(Language.valueOf(lang.toUpperCase())).getText();
             log.info("Mensagem gerada para o idioma '{}'", lang);
